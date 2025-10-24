@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<h3>DETAILS</h3>
+<form></form>
+ <label >Enter your username</label>
+ <input type="text"placeholder="Enter your name"required="[A-Za-z\s]+"><br>
+
+ <label >Enter your date of birth</label> 
+ <input type="date" required> <br>
+
+<label >Enter your address</label>
+<input type="text"placeholder="Enter your address"required> <br>
+
+<label >Enter your email</label>
+<input type="email" placeholder="EMAIL"required> <br>
+
+<label >Upload image</label>
+<input type="file"required> <br>
+
+<label >Enter your number</label>
+<input type="number"placeholder=Number required="03[0-9]{9}"> <br>
+
+<label >GENDER</label>
+<Label>MALE</Label>
+<input type="radio" name="GENDER" value="MALE">
+<label for="">female</label>
+<input type="radio" name="GENDER" value="female">
+
+<button type="submit">SUBMIT</button>
